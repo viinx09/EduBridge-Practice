@@ -56,7 +56,7 @@ class ContractEmployee extends Employee {
         System.out.println("Total Salary: " + calculateSalary());
     }
 }
-public class Main {
+class Main {
     public static void main(String[] args) {
         PermanentEmployee p1 = new PermanentEmployee(101, "Rahul", 30000, 5000, 3000);
         ContractEmployee c1 = new ContractEmployee(102, "Priya", 0, 160, 200);
@@ -236,7 +236,7 @@ class UPIPayment extends Payment {
         return amount + fee;
     }
 }
-public class Main {
+class Main {
     public static void main(String[] args) {
         Payment p;
         p = new CardPayment();
